@@ -8,7 +8,7 @@ public class PaketHemat : PesananMakanan
         this.hargaPerPorsi = hargaPerPorsi;
     }
 
-    // polymorphism override rumus hitung total bill
+    
     public override double HitungTotalBill(int jumlahPorsi)
     {
         return jumlahPorsi * hargaPerPorsi;

@@ -4,9 +4,9 @@ public class RiwayatPesanan
     private string kategoriPaket;
     private int jumlahPorsi;
     private string tanggalPesan;
-    private PesananMakanan dataPesanan; // Hubungan Composition
+    private PesananMakanan dataPesanan; 
 
-    // Metode untuk menghubungkan data pesanan
+    
     public void TambahPesanan(string kategoriPaket, int jumlahPorsi, string tanggalPesan, PesananMakanan dataPesanan)
     {
         this.kategoriPaket = kategoriPaket;
@@ -15,7 +15,7 @@ public class RiwayatPesanan
         this.jumlahPorsi = jumlahPorsi;
     }
 
-    // Metode untuk cetak struk riwayat akhir
+    
     public void CetakRiwayat()
     {
         dataPesanan.TampilInfo();

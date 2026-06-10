@@ -11,7 +11,7 @@ public class PaketPrasmanan : PesananMakanan
         this.biayaService = biayaService;
     }
 
-    // Polymorphism: Override rumus dengan tambahan biaya service pramusaji
+   
     public override double HitungTotalBill(int jumlahPorsi)
     {
         return (jumlahPorsi * hargaPerPorsi) + biayaService;
